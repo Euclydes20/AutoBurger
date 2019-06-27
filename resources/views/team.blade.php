@@ -65,7 +65,7 @@
 </style>
 
 
-    <link rel="icon" href="img/Fevicon.png" type="image/png">
+    <link rel="icon" href="{{ asset('fevicon.png') }}" type="image/png">
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/all.min.css') }}">
@@ -179,13 +179,13 @@
     </footer>
     <!-- ================ fim footer ================= -->
 
-    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <!-- <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="vendors/OwlCarousel/owl.carousel.min.js"></script>
     <script src="vendors/sticky/jquery.sticky.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script> 
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> -->
   </body>
 </html>
